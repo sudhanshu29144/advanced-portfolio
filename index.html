@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Portfolio</title>
+    
+</head>
+<body>
+    <!-- Navigation with Flexbox -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with CSS Grid -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Creative Developer</h1>
+            <p>Crafting beautiful digital experiences with modern web technologies and innovative design solutions.</p>
+            <div class="cta-buttons">
+                <a href="#gallery" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/500x500/6366f1/ffffff?text=Your+Photo" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- Photo Gallery with Grid and Hover Effects -->
+    <section id="gallery" class="gallery fade-in">
+        <h2>Featured Projects</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <div class="gallery-item-content">🎨</div>
+                <div class="gallery-overlay">
+                    <h3>Design Project</h3>
+                    <p>Creative UI/UX Design</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-item-content">💻</div>
+                <div class="gallery-overlay">
+                    <h3>Web Development</h3>
+                    <p>Modern Web Application</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-item-content">📱</div>
+                <div class="gallery-overlay">
+                    <h3>Mobile App</h3>
+                    <p>iOS & Android Development</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-item-content">🎯</div>
+                <div class="gallery-overlay">
+                    <h3>Branding</h3>
+                    <p>Visual Identity Design</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-item-content">⚡</div>
+                <div class="gallery-overlay">
+                    <h3>Performance</h3>
+                    <p>Optimization & Speed</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-item-content">🚀</div>
+                <div class="gallery-overlay">
+                    <h3>Innovation</h3>
+                    <p>Cutting-Edge Solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills fade-in">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML & CSS</h3>
+                <p>Advanced layouts and modern CSS techniques</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>ES6+, async programming, and frameworks</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Responsive Design</h3>
+                <p>Mobile-first, adaptive layouts</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 92%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>UI/UX Design</h3>
+                <p>User-centered design principles</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <h2>Get in Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your.email@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+   
+</body>
+</html>
